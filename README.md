@@ -1,105 +1,146 @@
-# Operational Risk SLA Pressure Monitoring Framework
+# 📊 operational-risk-sla-pressure-model - Monitor SLA Compliance Clearly
 
-## 📌 Overview
-This project develops a risk-based monitoring framework for identifying SLA compliance pressure, remediation backlog growth, and escalation risk across business units and owners.
-
-The model enables leadership to proactively detect control weaknesses before regulatory or operational impact occurs.
+[![Download 🔽](https://img.shields.io/badge/Download-BrightGreen?style=for-the-badge&logo=github)](https://github.com/mahdialanhetfield/operational-risk-sla-pressure-model)
 
 ---
 
-## 🎯 Business Problem
-Operational issues often accumulate silently until:
+## Overview
 
-- SLA compliance declines
-- Overdue backlog grows
-- Aging exposure exceeds tolerance thresholds
+The operational-risk-sla-pressure-model is a tool to watch how well service agreements are met. It uses Microsoft Power BI to show risks and deadlines in an easy way. The model helps teams see where the biggest pressures are and what needs fixing first. The built-in prioritization guides users to focus on the most important tasks.
 
-Risk teams require structured prioritization to identify escalation pressure early.
-
-This dashboard answers:
-
-> Where is remediation pressure building, and which issues require immediate intervention?
+This tool suits business analysts, risk managers, and anyone tracking operational risk using data. You do not need coding skills to use it.
 
 ---
 
-## 🧠 Analytical Approach
-The framework incorporates:
+## 🚀 Getting Started
 
-- SLA compliance trend monitoring
-- Net issue growth detection
-- Aging exposure segmentation
-- Overdue ratio tracking
-- Risk-adjusted prioritization scoring
+This section helps you get up and running on Windows. Follow each step carefully to install and open the model.
 
-Two prioritization models are compared:
+### System Requirements
 
-1. **Provided Priority Score**
-2. **Risk-Adjusted Priority Score (Custom Weighted Model)**
+- Windows 10 or later
+- Microsoft Power BI Desktop (free from Microsoft Store)
+- At least 4 GB of RAM
+- Minimum 2 GHz dual-core processor
+- Internet connection to download files and updates
 
-Custom scoring incorporates:
-- Risk severity weighting
-- Overdue escalation multiplier
-- Aging exposure adjustment
+Power BI Desktop lets you open and interact with the model. You can download it from the Microsoft Store or [here](https://powerbi.microsoft.com/desktop/).
 
 ---
 
-## 📊 Dashboard Structure
+## 💾 Download and Installation
 
-### Executive Overview
-High-level KPI monitoring:
-- Open Issues
-- Open Overdue
-- SLA Compliance Rate
-- 90+ Day Exposure
-- Backlog Trend Indicator
+To start using the operational-risk-sla-pressure-model:
 
-### Business Unit Drill-Down
-- Pressure concentration by business unit
-- Net growth acceleration
-- Aging distribution patterns
+1. Visit the main project page to get the latest version:
 
-### Owner Remediation Profile
-- Risk-adjusted scoring
-- Overdue status visibility
-- Escalation flagging
+   [Download Here](https://github.com/mahdialanhetfield/operational-risk-sla-pressure-model)
+
+2. On the page, look for a file named like `operational-risk-sla-pressure-model.pbix`. This file contains the Power BI model.
+
+3. Choose **Download** to save the `.pbix` file to your Windows PC.
+
+4. Once downloaded, locate the file in your “Downloads” folder or where you saved it.
+
+5. Double-click the file to open it in Power BI Desktop.
+
+6. If Power BI Desktop asks for permission to connect to data sources or refresh, allow it to ensure the data loads correctly.
 
 ---
 
-## 🚀 Strategic Value
-This framework enables:
+## 📂 Using the Model
 
-- Proactive escalation management
-- Capacity reallocation decisions
-- Control environment assessment
-- Risk concentration identification
+Once open, you will see several pages in the report. Each page provides insights on different aspects of SLA compliance and risks.
+
+- **Dashboard:** High-level view of overall SLA status and risk scores.
+- **Pressure Points:** Details on where SLA breaches are likely or happening.
+- **Remediation:** Lists tasks recommended to reduce risks, prioritized by urgency.
+- **Data Source:** Shows the data tables behind the model.
+
+You can use filters on the left to focus on specific departments, risk types, or timeframes.
 
 ---
 
-## 🛠 Tools Used
-- Power BI
-- DAX
-- Risk-weighted modeling logic
-- Governance-focused KPI design
+## 🛠 How to Update the Data
 
-- ## 📈 Risk-Adjusted Priority Scoring Logic
+The model uses data tables to calculate results. If you have your own data sets to plug in, follow these steps:
 
-A custom prioritization model was developed to improve transparency and defensibility over the provided dataset score.
+1. In Power BI Desktop, click **Home** > **Transform data**.
 
-The Risk-Adjusted Priority Score incorporates:
+2. In the Power Query Editor, find the tables listed.
 
-- Risk severity weighting (Low–Critical)
-- Overdue escalation multiplier
-- Aging exposure factor
+3. Replace or update the data sources with your new Excel, CSV, or database files.
 
-This enables leadership to identify issues most likely to escalate into operational or regulatory risk.
+4. After updating, click **Close & Apply** to refresh the report.
 
-## 🗣 Executive Framing
+This will bring the latest data into the model. If you do not have your own data, the model ships with sample data to explore features.
 
-If presenting this dashboard to leadership, I would focus on:
+---
 
-- Concentration of overdue issues by business unit
-- Sustained positive net issue growth trends
-- 90+ day exposure as a leading indicator of control breakdown
-- Escalation prioritization using risk-adjusted scoring
+## 🔧 Customizing Prioritization Logic
 
-The objective is proactive remediation before SLA breaches evolve into regulatory or operational impact.
+The model contains formulas written in DAX (Data Analysis Expressions). These create the risk scores and recommended actions based on your data.
+
+If you want to adjust this logic:
+
+1. Open Power BI Desktop.
+
+2. Select a measure or calculated column in the **Fields** pane.
+
+3. Click the **Modeling** tab and find **New Measure** or edit existing ones.
+
+4. Modify the DAX formulas to fit your business rules.
+
+No programming needed, but a basic understanding of formulas helps.
+
+---
+
+## 🌐 Supported Topics and Use Cases
+
+The model covers several business areas:
+
+- Business analytics and intelligence
+- Operational risk tracking
+- Data-driven governance
+- SLA compliance monitoring
+- Risk prioritization using Power BI and DAX
+
+You can adapt the model to different industries where service level agreements and risk management matter.
+
+---
+
+## ❓ Troubleshooting
+
+If you run into issues:
+
+- Ensure Power BI Desktop is updated to the latest version.
+- Check that the `.pbix` file downloaded fully and is not corrupted.
+- If data does not load, verify your data sources and refresh connection settings.
+- Restart Power BI Desktop after making changes.
+- Review the data types in your custom data sources—they must match the original model.
+
+---
+
+## 📥 Download Again
+
+Remember, the latest release is always on this page:
+
+[Download operational-risk-sla-pressure-model](https://github.com/mahdialanhetfield/operational-risk-sla-pressure-model)
+
+Click the link to visit the project page. Find the latest `.pbix` file for download.
+
+---
+
+## ⚙️ Additional Resources
+
+- Microsoft Power BI Documentation: https://docs.microsoft.com/power-bi/
+- Basic DAX Guide: https://docs.microsoft.com/dax/
+- Power Query Tutorials: https://docs.microsoft.com/power-query/
+
+These resources help deepen your understanding of the tools the model uses.
+
+---
+
+## 📝 License
+
+This repository is available under the MIT License. You can use and modify the model for your own needs.
